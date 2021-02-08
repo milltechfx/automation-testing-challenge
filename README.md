@@ -11,11 +11,11 @@ This project consists of existing automation test (./test/specs/FillForm.spec.js
 # Challenge
 Task (Please don't spend more than a few hours on this):
 1. Run the existing test (npm test)
-2. Point out what is wrong/bad practices about the existing code in the test/specs/FillForm.spec.js
+2. Point out what is good and what is wrong/bad practices about the existing code in the test/specs/FillForm.spec.js
 3. Improve the current test [HINT: Make use of page objects and helpers to contain test data]
 4. Complete the FillFormSpec.js to submit the form
-5. Show off your skills! [Examples: run through multiple sets of data, environment configuration files, Allure report integration, Negative test scenarios, book store application, be creative!]
-6. Think of additional automation testing requirements and tools you would use [i.e compatibiility testing etc ]
+5. Show off your skills! [Examples: run through multiple sets of data, environment configuration files, Reporting tool integration, Negative test scenarios, book store application, be creative!]
+6. How else would you look to improve the automation testing on this project?
 
 # Set up Instructions
 1. Clone repo - https://github.com/milltechfx/automation-testing-challenge.git
