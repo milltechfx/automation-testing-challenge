@@ -25,7 +25,7 @@
     "asserts": "^4.0.2",
     "chromedriver-multi": "1.0.0",
     "dotenv": "^8.2.0",
-    "fs": "0.0.1-security",
+    "fs": "0.0.2",
     "jsotp": "^1.0.4",
     "selenium-webdriver": "^4.0.0-alpha.8"
   },
