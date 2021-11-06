@@ -44,6 +44,6 @@
     "eslint-plugin-standard": "^4.1.0",
     "json2xls": "^0.1.2",
     "wdio-chromedriver-service": "^6.0.4",
-    "xlsx": "^0.16.8"
+    "xlsx": "^0.17.0"
   }
 }
