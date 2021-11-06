@@ -6,20 +6,10 @@
   "license": "MIT",
   "homepage": "",
   "main": "./node_modules/.bin/wdio",
-  "keywords": [
-    "webdriver",
-    "webdriverio",
-    "jasmine",
-    "e2e",
-    "selenium",
-    "test"
-  ],
+  "keywords": [],
   "repository": {},
   "scripts": {
-    "test": "./node_modules/.bin/wdio wdio.conf.js",
-    "test:local": "wdio wdio.local.conf.js",
-    "test:grid": "./node_modules/.bin/wdio wdio.grid.conf.js",
-    "install": "node -e \"require('chromedriver-multi/install').installFromEnv()\""
+    "test": "wdio wdio.conf.js"
   },
   "dependencies": {
     "asserts": "^4.0.2",
@@ -35,9 +25,9 @@
     "@babel/plugin-syntax-export-default-from": "^7.12.1",
     "@babel/preset-env": "^7.12.1",
     "@babel/register": "^7.12.1",
+    "@cucumber/cucumber": "^8.0.0-rc.1",
     "@wdio/allure-reporter": "^6.7.2",
     "@wdio/cli": "^6.6.6",
-    "@wdio/jasmine-framework": "^6.6.6",
     "@wdio/junit-reporter": "^6.7.0",
     "@wdio/local-runner": "^6.6.6",
     "@wdio/sauce-service": "^6.6.6",
@@ -47,13 +37,11 @@
     "chromedriver": "^85.0.1",
     "eslint": "^7.11.0",
     "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-cucumber": "^1.4.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.1.0",
-    "jasmine": "^3.6.2",
-    "jasmine-allure-reporter": "^1.0.2",
-    "jasmine-data_driven_tests": "^1.0.0",
     "json2xls": "^0.1.2",
     "wdio-chromedriver-service": "^6.0.4",
     "xlsx": "^0.16.8"

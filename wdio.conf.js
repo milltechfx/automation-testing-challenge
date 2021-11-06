@@ -7,7 +7,7 @@ const path = require('path');
 exports.config = {
     runner: 'local',
     specs: [
-        './test/specs/*.js'
+        './test/features/*.js'
     ],
     exclude: [
     ],
@@ -23,11 +23,12 @@ exports.config = {
     connectionRetryTimeout: 120000,
     connectionRetryCount: 3,
     services: ['chromedriver'],
-    framework: 'jasmine',
+    framework: 'cucumber',
     reporters: ['spec'],
-    jasmineNodeOpts: {
-        defaultTimeoutInterval: 50000000,
-        expectationResultHandler: function(passed, assertion) {
-        }
-    }
+    cucumberOpts: {
+        timeout: 100000,
+        require: [
+            './test/stepDefs/*'     
+        ]
+    },
 }
