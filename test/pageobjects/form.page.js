@@ -10,8 +10,11 @@ class formPage extends Page {
     // Contains all methods for naviagting on the page
     
     fillName(firstName, lastName){
+        browser.pause(4000)
         this.inputFirstName.setValue(firstName);
+        browser.pause(4000)
         this.inputLastName.setValue(lastName);
+        browser.pause(4000)
     }
     
     open () {
