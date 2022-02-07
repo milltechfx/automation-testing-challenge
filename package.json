@@ -17,7 +17,7 @@
     "dotenv": "^8.2.0",
     "fs": "0.0.1-security",
     "jsotp": "^1.0.4",
-    "selenium-webdriver": "^4.0.0-alpha.8"
+    "selenium-webdriver": "^4.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.12.1",
@@ -34,7 +34,7 @@
     "@wdio/spec-reporter": "^6.6.6",
     "@wdio/sync": "^6.6.4",
     "allure-commandline": "^2.13.0",
-    "chromedriver": "^85.0.1",
+    "chromedriver": "^87.0.3",
     "eslint": "^7.11.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-cucumber": "^1.4.0",
@@ -44,6 +44,6 @@
     "eslint-plugin-standard": "^4.1.0",
     "json2xls": "^0.1.2",
     "wdio-chromedriver-service": "^6.0.4",
-    "xlsx": "^0.16.8"
+    "xlsx": "^0.17.0"
   }
 }
